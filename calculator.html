@@ -12,6 +12,9 @@
         function inverse() {
         var num = document.getElementById("n1");
         num.value = 1/num.value;
+        function quad() {
+        var num = document.getElementById("n1");
+        num.value = Math.pow(num.value, 4);
         }
     </script>
 
@@ -25,6 +28,7 @@
             <button onclick="cube()"> x^3 </button>
             <button onclick="square()"> x^2 </button>
             <button onclick="inverse()"> 1/x </button>
+            <button onclick="quad()"> x^4 </button>
         </p>
     </body>
 </html>
